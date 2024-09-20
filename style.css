@@ -132,3 +132,65 @@ margin-left: 35px;
     padding-right: 50px;
     padding-bottom: 1px;
 }
+
+.portfolio {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.portfoliopage {
+    max-width: 760px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.portfoliopage p {
+    font-size: 18px;
+    margin: 10px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.portfolio h2 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.visitlive {
+    position: absolute;
+    bottom: 140px;
+    left: 47%;
+    display: flex;
+    gap: 70px;
+}
+
+.visitlive a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #8c826d;
+    text-decoration: none;
+}
+.loginpic {
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    margin-left: 350px;
+    position: absolute;
+    top: 60%;
+    left: 24%;
+}

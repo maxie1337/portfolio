@@ -194,3 +194,67 @@ margin-left: 35px;
     top: 60%;
     left: 24%;
 }
+.portfoliocontainer {
+    position: relative;
+    top: -150px;
+}
+
+.educationpage {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 35%;
+    left: 15%;
+}
+
+.skillspage {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 35%;
+    left: 45%;
+}
+
+.employmentpage {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 35%;
+    left: 70%;
+}
+
+.educationpage h3, .employmentpage h3, .skillspage h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.educationpage li, .employmentpage li, .skillspage li {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+}
+
+.contactpage {
+    max-width: 760px;
+}
+
+.contactpage h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+.phonenumber, .email {
+    font-size: 22px;
+}
